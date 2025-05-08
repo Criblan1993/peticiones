@@ -22,7 +22,7 @@ def ruta_registro():
     passwd=request.form.get("contrasena")
     return f"Usuario registrado: {nombre}, {email}, {passwd}"
 
-
+#gu
 
 if __name__=="__main__":
     app.run(debug=True)
